@@ -12,6 +12,13 @@ public class Cocinero {
         return pizzaBuilder.getPizza();
     }
 
-   
+    public void crearPizza()
+    {
+        pizzaBuilder.crearNuevaPizza();
+        pizzaBuilder.ponerNombre();
+        pizzaBuilder.crearMasa();
+        pizzaBuilder.crearSalsa();
+        pizzaBuilder.crearIngredientes();
+    }
 
 }
