@@ -34,6 +34,21 @@ public class Pizza {
         this.salsa = salsa;
     }
 
+    public String getIngredientes() {
+        return ingredientes;
+    }
 
+    public void setIngredientes(String ingredientes) {
+        this.ingredientes = ingredientes;
+    }
+
+    @Override
+    public String toString() {
+        return "Pizza{" +
+                "nombre='" + nombre + '\'' +
+                ", masa='" + masa + '\'' +
+                ", salsa='" + salsa + '\'' +
+                ", ingredientes='" + ingredientes + '\'' +
+                '}';
     }
 }
